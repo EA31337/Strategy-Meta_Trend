@@ -6,8 +6,8 @@
 
 /**
  * @file
- * Implements Reversal meta strategy.
+ * Implements Trend meta strategy.
  */
 
 // Includes the main code.
-#include "Stg_Meta_Reversal.mq5"
+#include "Stg_Meta_Trend.mq5"
