@@ -10,24 +10,24 @@
 // User input params.
 INPUT2_GROUP("Meta Trend strategy: main params");
 INPUT2 ENUM_STRATEGY Meta_Trend_Strategy = STRAT_STOCHASTIC;  // Strategy to filter by trend
-INPUT2_GROUP("Meta Trend strategy: common params");
-INPUT2 float Meta_Trend_LotSize = 0;                // Lot size
-INPUT2 int Meta_Trend_SignalOpenMethod = 0;         // Signal open method
-INPUT2 float Meta_Trend_SignalOpenLevel = 0;        // Signal open level
-INPUT2 int Meta_Trend_SignalOpenFilterMethod = 32;  // Signal open filter method
-INPUT2 int Meta_Trend_SignalOpenFilterTime = 3;     // Signal open filter time (0-31)
-INPUT2 int Meta_Trend_SignalOpenBoostMethod = 0;    // Signal open boost method
-INPUT2 int Meta_Trend_SignalCloseMethod = 0;        // Signal close method
-INPUT2 int Meta_Trend_SignalCloseFilter = 32;       // Signal close filter (-127-127)
-INPUT2 float Meta_Trend_SignalCloseLevel = 0;       // Signal close level
-INPUT2 int Meta_Trend_PriceStopMethod = 0;          // Price limit method
-INPUT2 float Meta_Trend_PriceStopLevel = 2;         // Price limit level
-INPUT2 int Meta_Trend_TickFilterMethod = 32;        // Tick filter method (0-255)
-INPUT2 float Meta_Trend_MaxSpread = 4.0;            // Max spread to trade (in pips)
-INPUT2 short Meta_Trend_Shift = 0;                  // Shift
-INPUT2 float Meta_Trend_OrderCloseLoss = 200;       // Order close loss
-INPUT2 float Meta_Trend_OrderCloseProfit = 200;     // Order close profit
-INPUT2 int Meta_Trend_OrderCloseTime = 2880;        // Order close time in mins (>0) or bars (<0)
+INPUT3_GROUP("Meta Trend strategy: common params");
+INPUT3 float Meta_Trend_LotSize = 0;                // Lot size
+INPUT3 int Meta_Trend_SignalOpenMethod = 0;         // Signal open method
+INPUT3 float Meta_Trend_SignalOpenLevel = 0;        // Signal open level
+INPUT3 int Meta_Trend_SignalOpenFilterMethod = 32;  // Signal open filter method
+INPUT3 int Meta_Trend_SignalOpenFilterTime = 3;     // Signal open filter time (0-31)
+INPUT3 int Meta_Trend_SignalOpenBoostMethod = 0;    // Signal open boost method
+INPUT3 int Meta_Trend_SignalCloseMethod = 0;        // Signal close method
+INPUT3 int Meta_Trend_SignalCloseFilter = 32;       // Signal close filter (-127-127)
+INPUT3 float Meta_Trend_SignalCloseLevel = 0;       // Signal close level
+INPUT3 int Meta_Trend_PriceStopMethod = 0;          // Price limit method
+INPUT3 float Meta_Trend_PriceStopLevel = 2;         // Price limit level
+INPUT3 int Meta_Trend_TickFilterMethod = 32;        // Tick filter method (0-255)
+INPUT3 float Meta_Trend_MaxSpread = 4.0;            // Max spread to trade (in pips)
+INPUT3 short Meta_Trend_Shift = 0;                  // Shift
+INPUT3 float Meta_Trend_OrderCloseLoss = 200;       // Order close loss
+INPUT3 float Meta_Trend_OrderCloseProfit = 200;     // Order close profit
+INPUT3 int Meta_Trend_OrderCloseTime = 2880;        // Order close time in mins (>0) or bars (<0)
 INPUT_GROUP("Meta Trend strategy: RSI oscillator params");
 INPUT int Meta_Trend_RSI_Period = 16;                                    // Period
 INPUT ENUM_APPLIED_PRICE Meta_Trend_RSI_Applied_Price = PRICE_WEIGHTED;  // Applied Price
