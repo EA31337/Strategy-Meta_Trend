@@ -9,7 +9,7 @@
 
 // User input params.
 INPUT2_GROUP("Meta Trend strategy: main params");
-INPUT2 ENUM_STRATEGY Meta_Trend_Strategy = STRAT_STOCHASTIC;  // Strategy to filter by trend
+INPUT2 ENUM_STRATEGY Meta_Trend_Strategy = STRAT_OSCILLATOR_RANGE;  // Strategy to filter by trend
 INPUT3_GROUP("Meta Trend strategy: common params");
 INPUT3 float Meta_Trend_LotSize = 0;                // Lot size
 INPUT3 int Meta_Trend_SignalOpenMethod = 0;         // Signal open method
